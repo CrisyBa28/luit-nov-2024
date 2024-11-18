@@ -4,7 +4,7 @@ import string
 
 
 def ec2_names_generator():
-    allowed_departments = ('Marketing', 'marketing' 'Accounting', 'accounting', 'FinOps', 'Finops', 'finops' )
+    allowed_departments = ('Marketing', 'marketing', 'Accounting', 'accounting', 'FinOps', 'Finops', 'finops' )
     department_name = input ("What department do you work for? ")
 
     if department_name not in allowed_departments:
